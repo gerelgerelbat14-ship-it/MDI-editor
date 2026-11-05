@@ -161,7 +161,12 @@
         {
 
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Оюутны нэр: О.Гэрэлбат\nОюутны код: M.IT24D033", "Программын тухай", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
-}
+    }
     
 
